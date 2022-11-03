@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  nifi-registry:
+  - apiVersion: v2
+    appVersion: 1.16.3
+    created: "2022-11-03T13:06:26.3392348+03:00"
+    description: A subproject of Apache NiFi to store and manage shared resources.
+    digest: 7347f636b0731fb1a05139fe10ff23907c0a978494b2a3e8879082c11912db3c
+    home: https://github.com/dysnix/charts/tree/master/dysnix/nifi-registry
+    icon: https://svn.apache.org/repos/asf/nifi/site/trunk/images/niFi-logo-horizontal-scaled.png
+    name: nifi-registry
+    type: application
+    urls:
+    - https://POGitMail.github.io/helms/nifi-registry/nifi-registry-1.1.1.tgz
+    version: 1.1.1
+generated: "2022-11-03T13:06:26.3376511+03:00"
