@@ -82,7 +82,6 @@ spec:
             {{- if .Values.security.authConf }}
               cp --dereference /AuthConfConfigMap/users.xml ./auth-conf/
               cp --dereference /AuthConfConfigMap/random.xml ./auth-conf/
-              cp --dereference /AuthConfConfigMap/authorizations.xml ./auth-conf/
             {{- /* if .Values.security.authConf */}}{{ end }}
 
           {{/*
